@@ -1,0 +1,6 @@
+dist/
+indexed-data/
+node_modules/
+.env
+*.vim
+.DS_Store

@@ -1,0 +1,22 @@
+{
+    "account" : [
+        {
+            "mainnet": "ckb1qyqy84gfm9ljvqr69p0njfqullx5zy2hr9kqjynwlg",
+            "testnet": "ckt1qyqy84gfm9ljvqr69p0njfqullx5zy2hr9kq0pd3n5",
+            "lock_arg": "0x43d509d97f26007a285f39241cffcd411157196c",
+            "private_key": "0xdd50cac37ec6dd12539a968c1a2cbedda75bd8724f7bcad486548eaabb87fc8b"
+        },
+        {
+            "mainnet": "ckb1qyqf22qfzaer95xm5d2m5km0f6k288x9warqwjwke8",
+            "testnet": "ckt1qyqf22qfzaer95xm5d2m5km0f6k288x9warqnhsf4m",
+            "lock_arg": "0x952809177232d0dba355ba5b6f4eaca39cc57746",
+            "private_key": "0x6cd5e7be2f6504aa5ae7c0c04178d8f47b7cfc63b71d95d9e6282f5b090431bf"
+        },
+        {
+            "mainnet": "ckb1qyqtxvjgczx9tmtrd5hsp5r96g37cxsdxvaqp6culx",
+            "testnet": "ckt1qyqtxvjgczx9tmtrd5hsp5r96g37cxsdxvaqulxrn6",
+            "lock_arg": "0xb33248c08c55ed636d2f00d065d223ec1a0d333a",
+            "private_key": "0x8ca6891c2386d71a6206f1d56888b48a4ee335ca8b03ed04ac31b143c0d8c609"
+        }
+    ]
+}

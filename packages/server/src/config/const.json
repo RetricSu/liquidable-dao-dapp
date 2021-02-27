@@ -1,0 +1,40 @@
+{
+    "TX_VERSION": "0x0",
+    "BURNER_LOCK": {
+        "args": "0x",
+        "code_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "hash_type": "data"
+    },
+    "EMPTY_RAW_TRANSACTION": {
+        "version": "",
+        "cell_deps": [],
+        "header_deps": [],
+        "inputs": [],
+        "outputs": [],
+        "outputs_data": []
+    },
+    "EMPTY_TRANSACTION" : {
+        "version": "",
+        "cell_deps": [],
+        "header_deps": [],
+        "inputs": [],
+        "outputs": [],
+        "outputs_data": [],
+        "witnesses": []
+    },
+    "CONTRACT_CODE_PREFIX_PATH": "./src/script-examples/",
+    "TEST_CONTRACT": "./src/script-examples/carrot",
+    "TEST_UPGRADABLE_CONTRACT": "./src/script-examples/parrot",
+    "TYPE_ID_CONTRACT": "./src/script-examples/type_id",
+    "RPC_URL": "http://127.0.0.1:8114",
+    "DB_URL": "/tmp/indexed-data",
+    "SERVER_PORT": {
+        "development": "5000",
+        "production": "9112"
+    },
+    "CROS_SERVER_LIST": [
+        "http://localhost:3000",
+        "https://zero2ckb.ckbapp.dev"
+    ],
+    "mode": "development"
+}
