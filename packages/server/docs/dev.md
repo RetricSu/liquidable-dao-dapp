@@ -3,8 +3,8 @@
 ## Step 1
 
 ```sh
-git clone https://github.com/RetricSu/dao-demo-dapp.git
-cd dao-demo-dapp/packages/server
+git clone https://github.com/RetricSu/liquidable-dao-dapp.git
+cd liquidable-dao-dapp/packages/server
 yarn install
 ```
 
@@ -45,20 +45,3 @@ now you are ready to start the server.
 ```sh
   yarn server
 ```
-
-### Lastly...Just For Fun
-
-This demo is mainly used for teaching about how to  build dapps on CKB, however, you can try improve the project to be a little more like a real product if you want.
-
-some additaional feature and ideas includes:
-
-- [x] add an devnet faucet to make new wallet be able to use this demo
-- [ ] add or complete the wallet-related funciton, like:
-  - [ ] recent transaction history
-  - [ ] wallet balance
-  - [ ] your NervosDAO earning
-  - [ ] ...
-- [ ] a market-place to trade with this puppet cell
-- [ ] to show the poential of liquating NervosDAO cell, like a faked defi mining app that can actually runing!
-
-Feel free to submit a PR! Happy Coding!
