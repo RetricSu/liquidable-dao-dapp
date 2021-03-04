@@ -2,11 +2,9 @@
 
 ## Step 1
 
-First,
-
 ```sh
-git clone https://github.com/RetricSu/dao-demo-server.git
-cd dao-demo-server
+git clone https://github.com/RetricSu/dao-demo-dapp.git
+cd dao-demo-dapp/packages/server
 yarn install
 ```
 
@@ -36,13 +34,21 @@ You should have these 3 contracts deployed in your local blockchain before you r
 2. [the special lock](https://github.com/RetricSu/liquidable-nervos-dao-contract) contract (the main one of this demo)
 3. [secp256k1_blake2b_sighash_all_duel](https://github.com/jjyr/ckb-dynamic-loading-secp256k1) contract (a sharing code import via [dynamic loading](https://docs.nervos.org/docs/labs/capsule-dynamic-loading-tutorial))
 
-the most common way to do that is to deploy all three contract using [capsule](https://github.com/nervosnetwork/capsule).
+the most common way to do that is to deploy all three contract using [capsule](https://github.com/nervosnetwork/capsule). you can check out instruction on the [smart comtract repo]((https://github.com/RetricSu/liquidable-nervos-dao-contract)).
 
-otherwise, if you don't have capsule installed in your local machine, the server code already contains the function to deploy all 3 contracts for you. you can check out the details in the end of `../src/server.ts`.
+however, if you don't have capsule installed in your local machine, the server code already contains the function to deploy all 3 contracts for you. you can check out the details in the end of [../src/server.ts](../src/server.ts) file.
+
+## Step 5
+
+now you are ready to start the server.
+
+```sh
+  yarn server
+```
 
 ### Lastly...Just For Fun
 
-This demo is mainly use for teaching about hwo to  build dapps on CKB, however, you can try improve the project to be a little more like a real product if you want.
+This demo is mainly used for teaching about how to  build dapps on CKB, however, you can try improve the project to be a little more like a real product if you want.
 
 some additaional feature and ideas includes:
 

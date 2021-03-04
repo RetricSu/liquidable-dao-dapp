@@ -33,8 +33,7 @@
         "production": "9112"
     },
     "CROS_SERVER_LIST": [
-        "http://localhost:3000",
-        "https://zero2ckb.ckbapp.dev"
+        "http://localhost:3000"
     ],
     "mode": "development"
 }

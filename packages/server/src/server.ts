@@ -321,16 +321,17 @@ the pre-required contract used in this demo includes 3 different ones
 ( meaning that you should have these 3 contracts deployed in your local blockchain before you run this demo )
 
     1. type-id contract
-    2. the special lock contract (the one you wrote by capsule in this demo tutoricail)
+    2. the special lock contract (the one you wrote by capsule in this demo toturial)
     3. secp256k1_blake2b_sighash_all_duel contract (as sharing code import via dynamic loading)
 
 the most common way to do that is to deploy all three contract using capsule. 
-otherwise, if you don't have capsule installed in your local machine,   you can try with the following
+
+However, if you don't have capsule installed in your local machine, you can try with the following
 function providing as an api fashion which give you a simple method to deploy the required contracts in your browser.
 
 here is how:
 
-    1. the source code(binary of the contract) is placed in /src/scripts-examples.
+    1. the source code (binary of the contract) is placed in /src/scripts-examples.
     2. the deployment use the first wallet in ../src/config/user.json, 
        so make sure you have set up the user.json config file correctly.
     3. you should uncomment the router, open your browser, and enter the router url to run the function.
