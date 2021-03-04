@@ -7,8 +7,7 @@ You can check out [server code](../../../packages/server) here.
 ## Step 1
 
 ```sh
-git clone https://github.com/RetricSu/liquidable-dao-dapp
-.git
+git clone https://github.com/RetricSu/liquidable-dao-dapp.git
 cd liquidable-dao-dapp/packages/client
 yarn install
 ```
