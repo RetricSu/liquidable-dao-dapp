@@ -1,6 +1,5 @@
 {
-  "name": "learn-ckb-by-hand",
-  "description": "a helper file in browser to learn ckb purely by hand.",
+  "name": "dao-server",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
